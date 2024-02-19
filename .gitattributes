@@ -1,0 +1,2 @@
+Data/[[:space:]]Visualization/NYC_MVC_PowerBI.pbix filter=lfs diff=lfs merge=lfs -text
+*.pbix filter=lfs diff=lfs merge=lfs -text
