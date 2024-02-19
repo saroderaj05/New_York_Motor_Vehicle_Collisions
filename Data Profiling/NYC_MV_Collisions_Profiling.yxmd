@@ -1,0 +1,1298 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2022.3">
+  <Nodes>
+    <Node ToolID="38">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="0" y="0" width="1350" height="520" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Container 38</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="True" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="2">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+            <Position x="25" y="256" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Passwords />
+              <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">D:\Final_NYC_Motor Vehicle Collisions\OneDrive_2023-04-11\Data - NYC Motor Vehicle Collisions\Motor_Vehicle_Collisions_-_Vehicles.tsv</File>
+              <FormatSpecificOptions>
+                <HeaderRow>True</HeaderRow>
+                <IgnoreErrors>False</IgnoreErrors>
+                <AllowShareWrite>False</AllowShareWrite>
+                <ImportLine>1</ImportLine>
+                <FieldLen>10000</FieldLen>
+                <SingleThreadRead>False</SingleThreadRead>
+                <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+                <Delimeter>\t</Delimeter>
+                <QuoteRecordBreak>False</QuoteRecordBreak>
+                <CodePage>65001</CodePage>
+              </FormatSpecificOptions>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Motor_Vehicle_Collisions_-_Vehicles.tsv</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="UNIQUE_ID" size="10000" source="File: D:\Final_NYC_Motor Vehicle Collisions\OneDrive_2023-04-11\Data - NYC Motor Vehicle Collisions\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="V_WString" />
+                <Field name="COLLISION_ID" size="10000" source="File: D:\Final_NYC_Motor Vehicle Collisions\OneDrive_2023-04-11\Data - NYC Motor Vehicle Collisions\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="V_WString" />
+                <Field name="CRASH_DATE" size="10000" source="File: D:\Final_NYC_Motor Vehicle Collisions\OneDrive_2023-04-11\Data - NYC Motor Vehicle Collisions\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="V_WString" />
+                <Field name="CRASH_TIME" size="10000" source="File: D:\Final_NYC_Motor Vehicle Collisions\OneDrive_2023-04-11\Data - NYC Motor Vehicle Collisions\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="V_WString" />
+                <Field name="VEHICLE_ID" size="10000" source="File: D:\Final_NYC_Motor Vehicle Collisions\OneDrive_2023-04-11\Data - NYC Motor Vehicle Collisions\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="V_WString" />
+                <Field name="STATE_REGISTRATION" size="10000" source="File: D:\Final_NYC_Motor Vehicle Collisions\OneDrive_2023-04-11\Data - NYC Motor Vehicle Collisions\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="V_WString" />
+                <Field name="VEHICLE_TYPE" size="10000" source="File: D:\Final_NYC_Motor Vehicle Collisions\OneDrive_2023-04-11\Data - NYC Motor Vehicle Collisions\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="V_WString" />
+                <Field name="VEHICLE_MAKE" size="10000" source="File: D:\Final_NYC_Motor Vehicle Collisions\OneDrive_2023-04-11\Data - NYC Motor Vehicle Collisions\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="V_WString" />
+                <Field name="VEHICLE_MODEL" size="10000" source="File: D:\Final_NYC_Motor Vehicle Collisions\OneDrive_2023-04-11\Data - NYC Motor Vehicle Collisions\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="V_WString" />
+                <Field name="VEHICLE_YEAR" size="10000" source="File: D:\Final_NYC_Motor Vehicle Collisions\OneDrive_2023-04-11\Data - NYC Motor Vehicle Collisions\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="V_WString" />
+                <Field name="TRAVEL_DIRECTION" size="10000" source="File: D:\Final_NYC_Motor Vehicle Collisions\OneDrive_2023-04-11\Data - NYC Motor Vehicle Collisions\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="V_WString" />
+                <Field name="VEHICLE_OCCUPANTS" size="10000" source="File: D:\Final_NYC_Motor Vehicle Collisions\OneDrive_2023-04-11\Data - NYC Motor Vehicle Collisions\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="V_WString" />
+                <Field name="DRIVER_SEX" size="10000" source="File: D:\Final_NYC_Motor Vehicle Collisions\OneDrive_2023-04-11\Data - NYC Motor Vehicle Collisions\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="V_WString" />
+                <Field name="DRIVER_LICENSE_STATUS" size="10000" source="File: D:\Final_NYC_Motor Vehicle Collisions\OneDrive_2023-04-11\Data - NYC Motor Vehicle Collisions\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="V_WString" />
+                <Field name="DRIVER_LICENSE_JURISDICTION" size="10000" source="File: D:\Final_NYC_Motor Vehicle Collisions\OneDrive_2023-04-11\Data - NYC Motor Vehicle Collisions\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="V_WString" />
+                <Field name="PRE_CRASH" size="10000" source="File: D:\Final_NYC_Motor Vehicle Collisions\OneDrive_2023-04-11\Data - NYC Motor Vehicle Collisions\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="V_WString" />
+                <Field name="POINT_OF_IMPACT" size="10000" source="File: D:\Final_NYC_Motor Vehicle Collisions\OneDrive_2023-04-11\Data - NYC Motor Vehicle Collisions\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="V_WString" />
+                <Field name="VEHICLE_DAMAGE" size="10000" source="File: D:\Final_NYC_Motor Vehicle Collisions\OneDrive_2023-04-11\Data - NYC Motor Vehicle Collisions\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="V_WString" />
+                <Field name="VEHICLE_DAMAGE_1" size="10000" source="File: D:\Final_NYC_Motor Vehicle Collisions\OneDrive_2023-04-11\Data - NYC Motor Vehicle Collisions\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="V_WString" />
+                <Field name="VEHICLE_DAMAGE_2" size="10000" source="File: D:\Final_NYC_Motor Vehicle Collisions\OneDrive_2023-04-11\Data - NYC Motor Vehicle Collisions\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="V_WString" />
+                <Field name="VEHICLE_DAMAGE_3" size="10000" source="File: D:\Final_NYC_Motor Vehicle Collisions\OneDrive_2023-04-11\Data - NYC Motor Vehicle Collisions\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="V_WString" />
+                <Field name="PUBLIC_PROPERTY_DAMAGE" size="10000" source="File: D:\Final_NYC_Motor Vehicle Collisions\OneDrive_2023-04-11\Data - NYC Motor Vehicle Collisions\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="V_WString" />
+                <Field name="PUBLIC_PROPERTY_DAMAGE_TYPE" size="10000" source="File: D:\Final_NYC_Motor Vehicle Collisions\OneDrive_2023-04-11\Data - NYC Motor Vehicle Collisions\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="V_WString" />
+                <Field name="CONTRIBUTING_FACTOR_1" size="10000" source="File: D:\Final_NYC_Motor Vehicle Collisions\OneDrive_2023-04-11\Data - NYC Motor Vehicle Collisions\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="V_WString" />
+                <Field name="CONTRIBUTING_FACTOR_2" size="10000" source="File: D:\Final_NYC_Motor Vehicle Collisions\OneDrive_2023-04-11\Data - NYC Motor Vehicle Collisions\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="V_WString" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+        </Node>
+        <Node ToolID="6">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BasicDataProfile.BasicDataProfile">
+            <Position x="534" y="436" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Limit_UniqueCount>10000</Limit_UniqueCount>
+              <Limit_UniqueValuesSize>1000</Limit_UniqueValuesSize>
+              <IsMetric value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBasicDataProfile" />
+        </Node>
+        <Node ToolID="7">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="678" y="436" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Users\nisha\AppData\Local\Temp\Engine_37264_4f141a821e455c4ba62196f8da03a80b_\Engine_37264_d3fb6035f67a2445b78ad60212b8f199~.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Profile</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="8">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
+            <Position x="174" y="256" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Fields>
+                <Field field="UNIQUE_ID" selected="True" />
+                <Field field="COLLISION_ID" selected="True" />
+                <Field field="CRASH_DATE" selected="True" />
+                <Field field="CRASH_TIME" selected="True" />
+                <Field field="VEHICLE_ID" selected="True" />
+                <Field field="STATE_REGISTRATION" selected="True" />
+                <Field field="VEHICLE_TYPE" selected="True" />
+                <Field field="VEHICLE_MAKE" selected="True" />
+                <Field field="VEHICLE_MODEL" selected="True" />
+                <Field field="VEHICLE_YEAR" selected="True" />
+                <Field field="TRAVEL_DIRECTION" selected="True" />
+                <Field field="VEHICLE_OCCUPANTS" selected="True" />
+                <Field field="DRIVER_SEX" selected="True" />
+                <Field field="DRIVER_LICENSE_STATUS" selected="True" />
+                <Field field="DRIVER_LICENSE_JURISDICTION" selected="True" />
+                <Field field="PRE_CRASH" selected="True" />
+                <Field field="POINT_OF_IMPACT" selected="True" />
+                <Field field="VEHICLE_DAMAGE" selected="True" />
+                <Field field="VEHICLE_DAMAGE_1" selected="True" />
+                <Field field="VEHICLE_DAMAGE_2" selected="True" />
+                <Field field="VEHICLE_DAMAGE_3" selected="True" />
+                <Field field="PUBLIC_PROPERTY_DAMAGE" selected="True" />
+                <Field field="PUBLIC_PROPERTY_DAMAGE_TYPE" selected="True" />
+                <Field field="CONTRIBUTING_FACTOR_1" selected="True" />
+                <Field field="CONTRIBUTING_FACTOR_2" selected="True" />
+                <Field field="*Unknown" selected="True" />
+              </Fields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="UNIQUE_ID" source="File: D:\Final_NYC_Motor Vehicle Collisions\OneDrive_2023-04-11\Data - NYC Motor Vehicle Collisions\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="Int32" />
+                <Field name="COLLISION_ID" source="File: D:\Final_NYC_Motor Vehicle Collisions\OneDrive_2023-04-11\Data - NYC Motor Vehicle Collisions\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="Int32" />
+                <Field name="CRASH_DATE" size="10" source="File: D:\Final_NYC_Motor Vehicle Collisions\OneDrive_2023-04-11\Data - NYC Motor Vehicle Collisions\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="String" />
+                <Field name="CRASH_TIME" size="5" source="File: D:\Final_NYC_Motor Vehicle Collisions\OneDrive_2023-04-11\Data - NYC Motor Vehicle Collisions\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="String" />
+                <Field name="VEHICLE_ID" size="36" source="File: D:\Final_NYC_Motor Vehicle Collisions\OneDrive_2023-04-11\Data - NYC Motor Vehicle Collisions\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="V_String" />
+                <Field name="STATE_REGISTRATION" size="2" source="File: D:\Final_NYC_Motor Vehicle Collisions\OneDrive_2023-04-11\Data - NYC Motor Vehicle Collisions\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="String" />
+                <Field name="VEHICLE_TYPE" size="38" source="File: D:\Final_NYC_Motor Vehicle Collisions\OneDrive_2023-04-11\Data - NYC Motor Vehicle Collisions\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="V_String" />
+                <Field name="VEHICLE_MAKE" size="47" source="File: D:\Final_NYC_Motor Vehicle Collisions\OneDrive_2023-04-11\Data - NYC Motor Vehicle Collisions\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="V_String" />
+                <Field name="VEHICLE_MODEL" size="25" source="File: D:\Final_NYC_Motor Vehicle Collisions\OneDrive_2023-04-11\Data - NYC Motor Vehicle Collisions\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="V_String" />
+                <Field name="VEHICLE_YEAR" source="File: D:\Final_NYC_Motor Vehicle Collisions\OneDrive_2023-04-11\Data - NYC Motor Vehicle Collisions\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="Int16" />
+                <Field name="TRAVEL_DIRECTION" size="9" source="File: D:\Final_NYC_Motor Vehicle Collisions\OneDrive_2023-04-11\Data - NYC Motor Vehicle Collisions\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="V_String" />
+                <Field name="VEHICLE_OCCUPANTS" source="File: D:\Final_NYC_Motor Vehicle Collisions\OneDrive_2023-04-11\Data - NYC Motor Vehicle Collisions\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="Int32" />
+                <Field name="DRIVER_SEX" size="1" source="File: D:\Final_NYC_Motor Vehicle Collisions\OneDrive_2023-04-11\Data - NYC Motor Vehicle Collisions\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="String" />
+                <Field name="DRIVER_LICENSE_STATUS" size="10" source="File: D:\Final_NYC_Motor Vehicle Collisions\OneDrive_2023-04-11\Data - NYC Motor Vehicle Collisions\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="V_String" />
+                <Field name="DRIVER_LICENSE_JURISDICTION" size="8" source="File: D:\Final_NYC_Motor Vehicle Collisions\OneDrive_2023-04-11\Data - NYC Motor Vehicle Collisions\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="V_String" />
+                <Field name="PRE_CRASH" size="26" source="File: D:\Final_NYC_Motor Vehicle Collisions\OneDrive_2023-04-11\Data - NYC Motor Vehicle Collisions\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="V_String" />
+                <Field name="POINT_OF_IMPACT" size="25" source="File: D:\Final_NYC_Motor Vehicle Collisions\OneDrive_2023-04-11\Data - NYC Motor Vehicle Collisions\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="V_String" />
+                <Field name="VEHICLE_DAMAGE" size="25" source="File: D:\Final_NYC_Motor Vehicle Collisions\OneDrive_2023-04-11\Data - NYC Motor Vehicle Collisions\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="V_String" />
+                <Field name="VEHICLE_DAMAGE_1" size="25" source="File: D:\Final_NYC_Motor Vehicle Collisions\OneDrive_2023-04-11\Data - NYC Motor Vehicle Collisions\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="V_String" />
+                <Field name="VEHICLE_DAMAGE_2" size="25" source="File: D:\Final_NYC_Motor Vehicle Collisions\OneDrive_2023-04-11\Data - NYC Motor Vehicle Collisions\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="V_String" />
+                <Field name="VEHICLE_DAMAGE_3" size="25" source="File: D:\Final_NYC_Motor Vehicle Collisions\OneDrive_2023-04-11\Data - NYC Motor Vehicle Collisions\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="V_String" />
+                <Field name="PUBLIC_PROPERTY_DAMAGE" size="11" source="File: D:\Final_NYC_Motor Vehicle Collisions\OneDrive_2023-04-11\Data - NYC Motor Vehicle Collisions\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="V_String" />
+                <Field name="PUBLIC_PROPERTY_DAMAGE_TYPE" size="500" source="File: D:\Final_NYC_Motor Vehicle Collisions\OneDrive_2023-04-11\Data - NYC Motor Vehicle Collisions\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="V_String" />
+                <Field name="CONTRIBUTING_FACTOR_1" size="53" source="File: D:\Final_NYC_Motor Vehicle Collisions\OneDrive_2023-04-11\Data - NYC Motor Vehicle Collisions\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="V_String" />
+                <Field name="CONTRIBUTING_FACTOR_2" size="53" source="File: D:\Final_NYC_Motor Vehicle Collisions\OneDrive_2023-04-11\Data - NYC Motor Vehicle Collisions\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="V_String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAutoField" />
+        </Node>
+        <Node ToolID="13">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="642" y="196" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField expression="IF [VEHICLE_MAKE] in ('UNK','UNKNO', 'UNKNO', 'UNKOW', 'UNK L','UKN', 'UNKNW', 'UNKN', 'A', 'B', 'UNKOWN','') THEN 'UNKNOWN' &#xA;ELSEIF [VEHICLE_MAKE] in ('AMB', 'AMBU', 'AMBULENCE', 'AMBULANCE', 'AMBULCANCE', 'AMBUL' ,'AMBULACE', 'ANBUL', 'AMBL','ABULA','C', 'D', 'E', 'F', 'G') THEN 'AMBULANCE' &#xA;ELSEIF [VEHICLE_MAKE] in ('SEDAN', 'DR SEDAN') THEN 'SEDAN'&#xA;ELSEIF [VEHICLE_MAKE] in ('STATION WAGONSPORT UTILITY VEHICLE', 'SPORT UTILITY STATION WAGON') then 'STATION WAGON / SPORT UTILITY VEHICLE'&#xA;ELSE [VEHICLE_MAKE] ENDIF" field="VEHICLE_MAKE" size="47" type="V_String" />
+                <FormulaField expression="DateTimeNow()" field="DI_CreateDate" size="19" type="DateTime" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>VEHICLE_MAKE = IF [VEHICLE_MAKE] in ('UNK','UNKNO', 'UNKNO', 'UNKOW', 'UNK L','U...</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+        <Node ToolID="14">
+          <GuiSettings>
+            <Position x="546" y="177" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Value name="Check Box (135)">False</Value>
+              <Value name="Check Box (136)">False</Value>
+              <Value name="List Box (11)">"UNIQUE_ID","COLLISION_ID","STATE_REGISTRATION","VEHICLE_TYPE","VEHICLE_MAKE","VEHICLE_MODEL","VEHICLE_YEAR","TRAVEL_DIRECTION","VEHICLE_OCCUPANTS","DRIVER_SEX","DRIVER_LICENSE_STATUS","DRIVER_LICENSE_JURISDICTION","PRE_CRASH","POINT_OF_IMPACT","VEHICLE_DAMAGE","VEHICLE_DAMAGE_1","VEHICLE_DAMAGE_2","VEHICLE_DAMAGE_3","PUBLIC_PROPERTY_DAMAGE","PUBLIC_PROPERTY_DAMAGE_TYPE","CONTRIBUTING_FACTOR_1","CONTRIBUTING_FACTOR_2"</Value>
+              <Value name="Check Box (84)">False</Value>
+              <Value name="Check Box (117)">False</Value>
+              <Value name="Check Box (15)">True</Value>
+              <Value name="Check Box (109)">True</Value>
+              <Value name="Check Box (122)">False</Value>
+              <Value name="Check Box (53)">False</Value>
+              <Value name="Check Box (58)">True</Value>
+              <Value name="Check Box (70)">True</Value>
+              <Value name="Check Box (77)">True</Value>
+              <Value name="Drop Down (81)">upper</Value>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <Dependencies>
+              <Implicit />
+            </Dependencies>
+          </Properties>
+          <EngineSettings Macro="Cleanse.yxmc" />
+        </Node>
+        <Node ToolID="15">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="1266" y="158" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Users\nisha\AppData\Local\Temp\Engine_37264_4f141a821e455c4ba62196f8da03a80b_\Engine_37264_28ba5c69822b8e40acc375dae067583e~.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Profile</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="20">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="498" y="223" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Users\nisha\AppData\Local\Temp\Engine_37264_4f141a821e455c4ba62196f8da03a80b_\Engine_37264_95c1c4eccca8da41a7e70c4cd48292a8~.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Profile</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="22">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DynamicRename.DynamicRename">
+            <Position x="90" y="198" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <RenameMode>Formula</RenameMode>
+              <Fields orderChanged="False">
+                <Field name="UNIQUE_ID" />
+                <Field name="COLLISION_ID" />
+                <Field name="CRASH_DATE" />
+                <Field name="CRASH_TIME" />
+                <Field name="VEHICLE_ID" />
+                <Field name="STATE_REGISTRATION" />
+                <Field name="VEHICLE_TYPE" />
+                <Field name="VEHICLE_MAKE" />
+                <Field name="VEHICLE_MODEL" />
+                <Field name="VEHICLE_YEAR" />
+                <Field name="TRAVEL_DIRECTION" />
+                <Field name="VEHICLE_OCCUPANTS" />
+                <Field name="DRIVER_SEX" />
+                <Field name="DRIVER_LICENSE_STATUS" />
+                <Field name="DRIVER_LICENSE_JURISDICTION" />
+                <Field name="PRE_CRASH" />
+                <Field name="POINT_OF_IMPACT" />
+                <Field name="VEHICLE_DAMAGE" />
+                <Field name="VEHICLE_DAMAGE_1" />
+                <Field name="VEHICLE_DAMAGE_2" />
+                <Field name="VEHICLE_DAMAGE_3" />
+                <Field name="PUBLIC_PROPERTY_DAMAGE" />
+                <Field name="PUBLIC_PROPERTY_DAMAGE_TYPE" />
+                <Field name="CONTRIBUTING_FACTOR_1" />
+                <Field name="CONTRIBUTING_FACTOR_2" />
+                <Field name="*Unknown" />
+              </Fields>
+              <Expression>regex_replace([_CurrentField_], " ","_")</Expression>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="UNIQUE_ID" size="10000" source="File: D:\Final_NYC_Motor Vehicle Collisions\OneDrive_2023-04-11\Data - NYC Motor Vehicle Collisions\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="V_WString" />
+                <Field name="COLLISION_ID" size="10000" source="File: D:\Final_NYC_Motor Vehicle Collisions\OneDrive_2023-04-11\Data - NYC Motor Vehicle Collisions\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="V_WString" />
+                <Field name="CRASH_DATE" size="10000" source="File: D:\Final_NYC_Motor Vehicle Collisions\OneDrive_2023-04-11\Data - NYC Motor Vehicle Collisions\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="V_WString" />
+                <Field name="CRASH_TIME" size="10000" source="File: D:\Final_NYC_Motor Vehicle Collisions\OneDrive_2023-04-11\Data - NYC Motor Vehicle Collisions\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="V_WString" />
+                <Field name="VEHICLE_ID" size="10000" source="File: D:\Final_NYC_Motor Vehicle Collisions\OneDrive_2023-04-11\Data - NYC Motor Vehicle Collisions\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="V_WString" />
+                <Field name="STATE_REGISTRATION" size="10000" source="File: D:\Final_NYC_Motor Vehicle Collisions\OneDrive_2023-04-11\Data - NYC Motor Vehicle Collisions\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="V_WString" />
+                <Field name="VEHICLE_TYPE" size="10000" source="File: D:\Final_NYC_Motor Vehicle Collisions\OneDrive_2023-04-11\Data - NYC Motor Vehicle Collisions\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="V_WString" />
+                <Field name="VEHICLE_MAKE" size="10000" source="File: D:\Final_NYC_Motor Vehicle Collisions\OneDrive_2023-04-11\Data - NYC Motor Vehicle Collisions\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="V_WString" />
+                <Field name="VEHICLE_MODEL" size="10000" source="File: D:\Final_NYC_Motor Vehicle Collisions\OneDrive_2023-04-11\Data - NYC Motor Vehicle Collisions\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="V_WString" />
+                <Field name="VEHICLE_YEAR" size="10000" source="File: D:\Final_NYC_Motor Vehicle Collisions\OneDrive_2023-04-11\Data - NYC Motor Vehicle Collisions\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="V_WString" />
+                <Field name="TRAVEL_DIRECTION" size="10000" source="File: D:\Final_NYC_Motor Vehicle Collisions\OneDrive_2023-04-11\Data - NYC Motor Vehicle Collisions\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="V_WString" />
+                <Field name="VEHICLE_OCCUPANTS" size="10000" source="File: D:\Final_NYC_Motor Vehicle Collisions\OneDrive_2023-04-11\Data - NYC Motor Vehicle Collisions\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="V_WString" />
+                <Field name="DRIVER_SEX" size="10000" source="File: D:\Final_NYC_Motor Vehicle Collisions\OneDrive_2023-04-11\Data - NYC Motor Vehicle Collisions\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="V_WString" />
+                <Field name="DRIVER_LICENSE_STATUS" size="10000" source="File: D:\Final_NYC_Motor Vehicle Collisions\OneDrive_2023-04-11\Data - NYC Motor Vehicle Collisions\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="V_WString" />
+                <Field name="DRIVER_LICENSE_JURISDICTION" size="10000" source="File: D:\Final_NYC_Motor Vehicle Collisions\OneDrive_2023-04-11\Data - NYC Motor Vehicle Collisions\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="V_WString" />
+                <Field name="PRE_CRASH" size="10000" source="File: D:\Final_NYC_Motor Vehicle Collisions\OneDrive_2023-04-11\Data - NYC Motor Vehicle Collisions\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="V_WString" />
+                <Field name="POINT_OF_IMPACT" size="10000" source="File: D:\Final_NYC_Motor Vehicle Collisions\OneDrive_2023-04-11\Data - NYC Motor Vehicle Collisions\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="V_WString" />
+                <Field name="VEHICLE_DAMAGE" size="10000" source="File: D:\Final_NYC_Motor Vehicle Collisions\OneDrive_2023-04-11\Data - NYC Motor Vehicle Collisions\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="V_WString" />
+                <Field name="VEHICLE_DAMAGE_1" size="10000" source="File: D:\Final_NYC_Motor Vehicle Collisions\OneDrive_2023-04-11\Data - NYC Motor Vehicle Collisions\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="V_WString" />
+                <Field name="VEHICLE_DAMAGE_2" size="10000" source="File: D:\Final_NYC_Motor Vehicle Collisions\OneDrive_2023-04-11\Data - NYC Motor Vehicle Collisions\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="V_WString" />
+                <Field name="VEHICLE_DAMAGE_3" size="10000" source="File: D:\Final_NYC_Motor Vehicle Collisions\OneDrive_2023-04-11\Data - NYC Motor Vehicle Collisions\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="V_WString" />
+                <Field name="PUBLIC_PROPERTY_DAMAGE" size="10000" source="File: D:\Final_NYC_Motor Vehicle Collisions\OneDrive_2023-04-11\Data - NYC Motor Vehicle Collisions\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="V_WString" />
+                <Field name="PUBLIC_PROPERTY_DAMAGE_TYPE" size="10000" source="File: D:\Final_NYC_Motor Vehicle Collisions\OneDrive_2023-04-11\Data - NYC Motor Vehicle Collisions\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="V_WString" />
+                <Field name="CONTRIBUTING_FACTOR_1" size="10000" source="File: D:\Final_NYC_Motor Vehicle Collisions\OneDrive_2023-04-11\Data - NYC Motor Vehicle Collisions\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="V_WString" />
+                <Field name="CONTRIBUTING_FACTOR_2" size="10000" source="File: D:\Final_NYC_Motor Vehicle Collisions\OneDrive_2023-04-11\Data - NYC Motor Vehicle Collisions\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="V_WString" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDynamicRename" />
+        </Node>
+        <Node ToolID="24">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.MultiFieldFormula.MultiFieldFormula">
+            <Position x="834" y="139" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FieldType>All</FieldType>
+              <Fields orderChanged="False">
+                <Field name="STATE_REGISTRATION" />
+                <Field name="VEHICLE_TYPE" />
+                <Field name="VEHICLE_MAKE" />
+                <Field name="VEHICLE_MODEL" />
+                <Field name="TRAVEL_DIRECTION" />
+                <Field name="DRIVER_SEX" />
+                <Field name="DRIVER_LICENSE_STATUS" />
+                <Field name="DRIVER_LICENSE_JURISDICTION" />
+                <Field name="PRE_CRASH" />
+                <Field name="POINT_OF_IMPACT" />
+                <Field name="VEHICLE_DAMAGE" />
+                <Field name="VEHICLE_DAMAGE_1" />
+                <Field name="VEHICLE_DAMAGE_2" />
+                <Field name="VEHICLE_DAMAGE_3" />
+                <Field name="PUBLIC_PROPERTY_DAMAGE" />
+                <Field name="PUBLIC_PROPERTY_DAMAGE_TYPE" />
+                <Field name="CONTRIBUTING_FACTOR_1" />
+                <Field name="CONTRIBUTING_FACTOR_2" />
+                <Field name="UNIQUE_ID" selected="False" />
+                <Field name="COLLISION_ID" selected="False" />
+                <Field name="CRASH_DATE" selected="False" />
+                <Field name="CRASH_TIME" selected="False" />
+                <Field name="VEHICLE_ID" selected="False" />
+                <Field name="VEHICLE_YEAR" selected="False" />
+                <Field name="VEHICLE_OCCUPANTS" selected="False" />
+                <Field name="DI_CreateDate" selected="False" />
+                <Field name="*Unknown" selected="False" />
+              </Fields>
+              <NewFieldAddOn>New_</NewFieldAddOn>
+              <NewFieldAddOnPos>Prefix</NewFieldAddOnPos>
+              <CopyOutput value="True" />
+              <Expression>IF [_CurrentField_] = null() THEN "NA" ELSE [_CurrentField_] ENDIF</Expression>
+              <ChangeFieldType value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>IF [_CurrentField_] = null() THEN "NA" ELSE [_CurrentField_] ...</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMultiFieldFormula" />
+        </Node>
+        <Node ToolID="25">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="246" y="180" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="CRASH_DATE" selected="True" type="V_String" size="10" />
+                <SelectField field="CRASH_TIME" selected="True" type="V_String" size="5" />
+                <SelectField field="DRIVER_SEX" selected="True" size="16384" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="26">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="1146" y="120" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="UNIQUE_ID" selected="True" />
+                <SelectField field="COLLISION_ID" selected="True" />
+                <SelectField field="CRASH_DATE" selected="True" />
+                <SelectField field="CRASH_TIME" selected="True" />
+                <SelectField field="VEHICLE_ID" selected="True" />
+                <SelectField field="VEHICLE_TYPE" selected="True" />
+                <SelectField field="NEW_CRASH_TIME" selected="True" />
+                <SelectField field="DateTime_Out" selected="True" />
+                <SelectField field="DI_CreateDate" selected="True" />
+                <SelectField field="New_STATE_REGISTRATION" selected="True" />
+                <SelectField field="New_VEHICLE_TYPE" selected="True" />
+                <SelectField field="New_VEHICLE_MAKE" selected="True" />
+                <SelectField field="New_VEHICLE_MODEL" selected="True" />
+                <SelectField field="New_TRAVEL_DIRECTION" selected="True" />
+                <SelectField field="New_DRIVER_SEX" selected="True" />
+                <SelectField field="New_DRIVER_LICENSE_STATUS" selected="True" />
+                <SelectField field="New_DRIVER_LICENSE_JURISDICTION" selected="True" />
+                <SelectField field="New_PRE_CRASH" selected="True" />
+                <SelectField field="New_POINT_OF_IMPACT" selected="True" />
+                <SelectField field="New_VEHICLE_DAMAGE" selected="True" />
+                <SelectField field="New_VEHICLE_DAMAGE_1" selected="True" />
+                <SelectField field="New_VEHICLE_DAMAGE_2" selected="True" />
+                <SelectField field="New_VEHICLE_DAMAGE_3" selected="True" />
+                <SelectField field="New_PUBLIC_PROPERTY_DAMAGE" selected="True" />
+                <SelectField field="New_PUBLIC_PROPERTY_DAMAGE_TYPE" selected="True" />
+                <SelectField field="New_CONTRIBUTING_FACTOR_1" selected="True" />
+                <SelectField field="New_CONTRIBUTING_FACTOR_2" selected="True" />
+                <SelectField field="New_VEHICLE_YEAR" selected="True" />
+                <SelectField field="New_VEHICLE_OCCUPANTS" selected="True" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="27">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="738" y="101" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField expression="IF [TRAVEL_DIRECTION] in ('E','e') THEN 'EAST' &#xA;ELSEIF [TRAVEL_DIRECTION] in ('W', 'w') THEN 'WEST' &#xA;ELSEIF [TRAVEL_DIRECTION] in ('N', 'n') THEN 'NORTH'&#xA;ELSEIF [TRAVEL_DIRECTION] in ('S', 's') THEN 'SOUTH'&#xA;ELSEIF [TRAVEL_DIRECTION] in ('NE', 'ne') THEN 'NORTHEAST'&#xA;ELSEIF [TRAVEL_DIRECTION] in ('NW', 'nw') THEN 'NORTHWEST'&#xA;ELSEIF [TRAVEL_DIRECTION] in ('SE', 'se') THEN 'SOUTHEAST'&#xA;ELSEIF [TRAVEL_DIRECTION] in ('SW', 'sw') THEN 'SOUTHWEST'&#xA;ELSE [TRAVEL_DIRECTION] ENDIF" field="TRAVEL_DIRECTION" size="9" type="V_String" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>TRAVEL_DIRECTION = IF [TRAVEL_DIRECTION] in ('E','e') THEN 'EAST' 
+ELSEIF [TRAVE...</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+        <Node ToolID="28">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.MultiFieldFormula.MultiFieldFormula">
+            <Position x="954" y="82" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FieldType>Numeric</FieldType>
+              <Fields orderChanged="False">
+                <Field name="VEHICLE_YEAR" />
+                <Field name="UNIQUE_ID" selected="False" />
+                <Field name="COLLISION_ID" selected="False" />
+                <Field name="VEHICLE_OCCUPANTS" selected="False" />
+                <Field name="*Unknown" selected="False" />
+              </Fields>
+              <NewFieldAddOn>New_</NewFieldAddOn>
+              <NewFieldAddOnPos>Prefix</NewFieldAddOnPos>
+              <CopyOutput value="True" />
+              <Expression>IF [_CurrentField_] = null() THEN "9999" ELSE [_CurrentField_] ENDIF</Expression>
+              <ChangeFieldType value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>IF [_CurrentField_] = null() THEN "9999" ELSE [_CurrentField_...</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMultiFieldFormula" />
+        </Node>
+        <Node ToolID="29">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.MultiFieldFormula.MultiFieldFormula">
+            <Position x="1050" y="63" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FieldType>Numeric</FieldType>
+              <Fields orderChanged="False">
+                <Field name="VEHICLE_OCCUPANTS" />
+                <Field name="UNIQUE_ID" selected="False" />
+                <Field name="COLLISION_ID" selected="False" />
+                <Field name="VEHICLE_YEAR" selected="False" />
+                <Field name="New_VEHICLE_YEAR" selected="False" />
+                <Field name="*Unknown" selected="False" />
+              </Fields>
+              <NewFieldAddOn>New_</NewFieldAddOn>
+              <NewFieldAddOnPos>Prefix</NewFieldAddOnPos>
+              <CopyOutput value="True" />
+              <Expression>IF [_CurrentField_] = null() THEN "-99" ELSE [_CurrentField_] ENDIF</Expression>
+              <ChangeFieldType value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>IF [_CurrentField_] = null() THEN "-99" ELSE [_CurrentField_]...</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMultiFieldFormula" />
+        </Node>
+        <Node ToolID="30">
+          <GuiSettings>
+            <Position x="522" y="392" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Value name="Select Fields">UNIQUE_ID=True,COLLISION_ID=True,CRASH_DATE=True,CRASH_TIME=True,VEHICLE_ID=True,STATE_REGISTRATION=True,VEHICLE_TYPE=True,VEHICLE_MAKE=True,VEHICLE_MODEL=True,VEHICLE_YEAR=True,TRAVEL_DIRECTION=True,VEHICLE_OCCUPANTS=True,DRIVER_SEX=True,DRIVER_LICENSE_STATUS=True,DRIVER_LICENSE_JURISDICTION=True,PRE_CRASH=True,POINT_OF_IMPACT=True,VEHICLE_DAMAGE=True,VEHICLE_DAMAGE_1=True,VEHICLE_DAMAGE_2=True,VEHICLE_DAMAGE_3=True,PUBLIC_PROPERTY_DAMAGE=True,PUBLIC_PROPERTY_DAMAGE_TYPE=True,CONTRIBUTING_FACTOR_1=True,CONTRIBUTING_FACTOR_2=True</Value>
+              <Value name="Sample Data">False</Value>
+              <Value name="Number">True</Value>
+              <Value name="NNumber">5000</Value>
+              <Value name="Percent">False</Value>
+              <Value name="NPercent">10</Value>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <Dependencies>
+              <Implicit />
+            </Dependencies>
+          </Properties>
+          <EngineSettings Macro="Predictive Tools\Field_Summary_Report.yxmc" />
+        </Node>
+        <Node ToolID="31">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="690" y="404" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Layout>
+                <View1>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+              </Layout>
+              <TempFile>C:\Users\nisha\AppData\Local\Temp\Engine_37264_4f141a821e455c4ba62196f8da03a80b_\Engine_37264_b8d1e576d1f41f4e89654fb721974553~.yxdb</TempFile>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="32">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="606" y="368" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Users\nisha\AppData\Local\Temp\Engine_37264_4f141a821e455c4ba62196f8da03a80b_\Engine_37264_06448ffd6455cf4a959145dde4c3b531~.yxdb</TempFile>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="35">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="594" y="428" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Users\nisha\AppData\Local\Temp\Engine_37264_4f141a821e455c4ba62196f8da03a80b_\Engine_37264_38744f58483d194489b61841e0e647cc~.yxdb</TempFile>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="36">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DateTime.DateTime">
+            <Position x="426" y="56" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <IsFrom value="False" />
+              <InputFieldName>CRASH_DATE</InputFieldName>
+              <Language>English</Language>
+              <Format>MM/dd/yyyy</Format>
+              <OutputFieldName>DateTime_Out</OutputFieldName>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Convert CRASH_DATE From:
+MM/dd/yyyy</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDateTime" />
+        </Node>
+        <Node ToolID="37">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DateTime.DateTime">
+            <Position x="354" y="49" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <IsFrom value="False" />
+              <InputFieldName>CRASH_TIME</InputFieldName>
+              <Language>English</Language>
+              <Format>HH:mm:ss</Format>
+              <OutputFieldName>NEW_CRASH_TIME</OutputFieldName>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Convert CRASH_TIME From:
+HH:mm:ss</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDateTime" />
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="21">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="0" y="616" width="978" height="411" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Container 21</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="4">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+            <Position x="25" y="665" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Passwords />
+              <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">D:\Final_NYC_Motor Vehicle Collisions\OneDrive_2023-04-11\Data - NYC Motor Vehicle Collisions\Motor_Vehicle_Collisions_-_Person.tsv</File>
+              <FormatSpecificOptions>
+                <HeaderRow>True</HeaderRow>
+                <IgnoreErrors>False</IgnoreErrors>
+                <AllowShareWrite>False</AllowShareWrite>
+                <ImportLine>1</ImportLine>
+                <FieldLen>10000</FieldLen>
+                <SingleThreadRead>False</SingleThreadRead>
+                <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+                <Delimeter>\t</Delimeter>
+                <QuoteRecordBreak>False</QuoteRecordBreak>
+                <CodePage>65001</CodePage>
+              </FormatSpecificOptions>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Motor_Vehicle_Collisions_-_Person.tsv</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="UNIQUE_ID" size="10000" source="File: D:\Final_NYC_Motor Vehicle Collisions\OneDrive_2023-04-11\Data - NYC Motor Vehicle Collisions\Motor_Vehicle_Collisions_-_Person.tsv" type="V_WString" />
+                <Field name="COLLISION_ID" size="10000" source="File: D:\Final_NYC_Motor Vehicle Collisions\OneDrive_2023-04-11\Data - NYC Motor Vehicle Collisions\Motor_Vehicle_Collisions_-_Person.tsv" type="V_WString" />
+                <Field name="CRASH_DATE" size="10000" source="File: D:\Final_NYC_Motor Vehicle Collisions\OneDrive_2023-04-11\Data - NYC Motor Vehicle Collisions\Motor_Vehicle_Collisions_-_Person.tsv" type="V_WString" />
+                <Field name="CRASH_TIME" size="10000" source="File: D:\Final_NYC_Motor Vehicle Collisions\OneDrive_2023-04-11\Data - NYC Motor Vehicle Collisions\Motor_Vehicle_Collisions_-_Person.tsv" type="V_WString" />
+                <Field name="PERSON_ID" size="10000" source="File: D:\Final_NYC_Motor Vehicle Collisions\OneDrive_2023-04-11\Data - NYC Motor Vehicle Collisions\Motor_Vehicle_Collisions_-_Person.tsv" type="V_WString" />
+                <Field name="PERSON_TYPE" size="10000" source="File: D:\Final_NYC_Motor Vehicle Collisions\OneDrive_2023-04-11\Data - NYC Motor Vehicle Collisions\Motor_Vehicle_Collisions_-_Person.tsv" type="V_WString" />
+                <Field name="PERSON_INJURY" size="10000" source="File: D:\Final_NYC_Motor Vehicle Collisions\OneDrive_2023-04-11\Data - NYC Motor Vehicle Collisions\Motor_Vehicle_Collisions_-_Person.tsv" type="V_WString" />
+                <Field name="VEHICLE_ID" size="10000" source="File: D:\Final_NYC_Motor Vehicle Collisions\OneDrive_2023-04-11\Data - NYC Motor Vehicle Collisions\Motor_Vehicle_Collisions_-_Person.tsv" type="V_WString" />
+                <Field name="PERSON_AGE" size="10000" source="File: D:\Final_NYC_Motor Vehicle Collisions\OneDrive_2023-04-11\Data - NYC Motor Vehicle Collisions\Motor_Vehicle_Collisions_-_Person.tsv" type="V_WString" />
+                <Field name="EJECTION" size="10000" source="File: D:\Final_NYC_Motor Vehicle Collisions\OneDrive_2023-04-11\Data - NYC Motor Vehicle Collisions\Motor_Vehicle_Collisions_-_Person.tsv" type="V_WString" />
+                <Field name="EMOTIONAL_STATUS" size="10000" source="File: D:\Final_NYC_Motor Vehicle Collisions\OneDrive_2023-04-11\Data - NYC Motor Vehicle Collisions\Motor_Vehicle_Collisions_-_Person.tsv" type="V_WString" />
+                <Field name="BODILY_INJURY" size="10000" source="File: D:\Final_NYC_Motor Vehicle Collisions\OneDrive_2023-04-11\Data - NYC Motor Vehicle Collisions\Motor_Vehicle_Collisions_-_Person.tsv" type="V_WString" />
+                <Field name="POSITION_IN_VEHICLE" size="10000" source="File: D:\Final_NYC_Motor Vehicle Collisions\OneDrive_2023-04-11\Data - NYC Motor Vehicle Collisions\Motor_Vehicle_Collisions_-_Person.tsv" type="V_WString" />
+                <Field name="SAFETY_EQUIPMENT" size="10000" source="File: D:\Final_NYC_Motor Vehicle Collisions\OneDrive_2023-04-11\Data - NYC Motor Vehicle Collisions\Motor_Vehicle_Collisions_-_Person.tsv" type="V_WString" />
+                <Field name="PED_LOCATION" size="10000" source="File: D:\Final_NYC_Motor Vehicle Collisions\OneDrive_2023-04-11\Data - NYC Motor Vehicle Collisions\Motor_Vehicle_Collisions_-_Person.tsv" type="V_WString" />
+                <Field name="PED_ACTION" size="10000" source="File: D:\Final_NYC_Motor Vehicle Collisions\OneDrive_2023-04-11\Data - NYC Motor Vehicle Collisions\Motor_Vehicle_Collisions_-_Person.tsv" type="V_WString" />
+                <Field name="COMPLAINT" size="10000" source="File: D:\Final_NYC_Motor Vehicle Collisions\OneDrive_2023-04-11\Data - NYC Motor Vehicle Collisions\Motor_Vehicle_Collisions_-_Person.tsv" type="V_WString" />
+                <Field name="PED_ROLE" size="10000" source="File: D:\Final_NYC_Motor Vehicle Collisions\OneDrive_2023-04-11\Data - NYC Motor Vehicle Collisions\Motor_Vehicle_Collisions_-_Person.tsv" type="V_WString" />
+                <Field name="CONTRIBUTING_FACTOR_1" size="10000" source="File: D:\Final_NYC_Motor Vehicle Collisions\OneDrive_2023-04-11\Data - NYC Motor Vehicle Collisions\Motor_Vehicle_Collisions_-_Person.tsv" type="V_WString" />
+                <Field name="CONTRIBUTING_FACTOR_2" size="10000" source="File: D:\Final_NYC_Motor Vehicle Collisions\OneDrive_2023-04-11\Data - NYC Motor Vehicle Collisions\Motor_Vehicle_Collisions_-_Person.tsv" type="V_WString" />
+                <Field name="PERSON_SEX" size="10000" source="File: D:\Final_NYC_Motor Vehicle Collisions\OneDrive_2023-04-11\Data - NYC Motor Vehicle Collisions\Motor_Vehicle_Collisions_-_Person.tsv" type="V_WString" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+        </Node>
+        <Node ToolID="9">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BasicDataProfile.BasicDataProfile">
+            <Position x="444" y="666" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Limit_UniqueCount>10000</Limit_UniqueCount>
+              <Limit_UniqueValuesSize>1000</Limit_UniqueValuesSize>
+              <IsMetric value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBasicDataProfile" />
+        </Node>
+        <Node ToolID="10">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="577" y="666" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Users\nisha\AppData\Local\Temp\Engine_38980_37ca70730ce5394fa4d0ddb53a870ecc_\Engine_38980_ddb944d5efd2d04e8776ca0baf81a7e3~.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Profile</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="11">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
+            <Position x="125" y="666" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Fields>
+                <Field field="UNIQUE_ID" selected="True" />
+                <Field field="COLLISION_ID" selected="True" />
+                <Field field="CRASH_DATE" selected="True" />
+                <Field field="CRASH_TIME" selected="True" />
+                <Field field="PERSON_ID" selected="True" />
+                <Field field="PERSON_TYPE" selected="True" />
+                <Field field="PERSON_INJURY" selected="True" />
+                <Field field="VEHICLE_ID" selected="True" />
+                <Field field="PERSON_AGE" selected="True" />
+                <Field field="EJECTION" selected="True" />
+                <Field field="EMOTIONAL_STATUS" selected="True" />
+                <Field field="BODILY_INJURY" selected="True" />
+                <Field field="POSITION_IN_VEHICLE" selected="True" />
+                <Field field="SAFETY_EQUIPMENT" selected="True" />
+                <Field field="PED_LOCATION" selected="True" />
+                <Field field="PED_ACTION" selected="True" />
+                <Field field="COMPLAINT" selected="True" />
+                <Field field="PED_ROLE" selected="True" />
+                <Field field="CONTRIBUTING_FACTOR_1" selected="True" />
+                <Field field="CONTRIBUTING_FACTOR_2" selected="True" />
+                <Field field="PERSON_SEX" selected="True" />
+                <Field field="*Unknown" selected="True" />
+              </Fields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="UNIQUE_ID" source="File: D:\Final_NYC_Motor Vehicle Collisions\OneDrive_2023-04-11\Data - NYC Motor Vehicle Collisions\Motor_Vehicle_Collisions_-_Person.tsv" type="Int32" />
+                <Field name="COLLISION_ID" source="File: D:\Final_NYC_Motor Vehicle Collisions\OneDrive_2023-04-11\Data - NYC Motor Vehicle Collisions\Motor_Vehicle_Collisions_-_Person.tsv" type="Int32" />
+                <Field name="CRASH_DATE" size="10" source="File: D:\Final_NYC_Motor Vehicle Collisions\OneDrive_2023-04-11\Data - NYC Motor Vehicle Collisions\Motor_Vehicle_Collisions_-_Person.tsv" type="String" />
+                <Field name="CRASH_TIME" size="5" source="File: D:\Final_NYC_Motor Vehicle Collisions\OneDrive_2023-04-11\Data - NYC Motor Vehicle Collisions\Motor_Vehicle_Collisions_-_Person.tsv" type="String" />
+                <Field name="PERSON_ID" size="36" source="File: D:\Final_NYC_Motor Vehicle Collisions\OneDrive_2023-04-11\Data - NYC Motor Vehicle Collisions\Motor_Vehicle_Collisions_-_Person.tsv" type="V_String" />
+                <Field name="PERSON_TYPE" size="15" source="File: D:\Final_NYC_Motor Vehicle Collisions\OneDrive_2023-04-11\Data - NYC Motor Vehicle Collisions\Motor_Vehicle_Collisions_-_Person.tsv" type="V_String" />
+                <Field name="PERSON_INJURY" size="11" source="File: D:\Final_NYC_Motor Vehicle Collisions\OneDrive_2023-04-11\Data - NYC Motor Vehicle Collisions\Motor_Vehicle_Collisions_-_Person.tsv" type="String" />
+                <Field name="VEHICLE_ID" source="File: D:\Final_NYC_Motor Vehicle Collisions\OneDrive_2023-04-11\Data - NYC Motor Vehicle Collisions\Motor_Vehicle_Collisions_-_Person.tsv" type="Int32" />
+                <Field name="PERSON_AGE" source="File: D:\Final_NYC_Motor Vehicle Collisions\OneDrive_2023-04-11\Data - NYC Motor Vehicle Collisions\Motor_Vehicle_Collisions_-_Person.tsv" type="Int16" />
+                <Field name="EJECTION" size="17" source="File: D:\Final_NYC_Motor Vehicle Collisions\OneDrive_2023-04-11\Data - NYC Motor Vehicle Collisions\Motor_Vehicle_Collisions_-_Person.tsv" type="V_String" />
+                <Field name="EMOTIONAL_STATUS" size="14" source="File: D:\Final_NYC_Motor Vehicle Collisions\OneDrive_2023-04-11\Data - NYC Motor Vehicle Collisions\Motor_Vehicle_Collisions_-_Person.tsv" type="V_String" />
+                <Field name="BODILY_INJURY" size="20" source="File: D:\Final_NYC_Motor Vehicle Collisions\OneDrive_2023-04-11\Data - NYC Motor Vehicle Collisions\Motor_Vehicle_Collisions_-_Person.tsv" type="V_String" />
+                <Field name="POSITION_IN_VEHICLE" size="86" source="File: D:\Final_NYC_Motor Vehicle Collisions\OneDrive_2023-04-11\Data - NYC Motor Vehicle Collisions\Motor_Vehicle_Collisions_-_Person.tsv" type="V_String" />
+                <Field name="SAFETY_EQUIPMENT" size="40" source="File: D:\Final_NYC_Motor Vehicle Collisions\OneDrive_2023-04-11\Data - NYC Motor Vehicle Collisions\Motor_Vehicle_Collisions_-_Person.tsv" type="V_String" />
+                <Field name="PED_LOCATION" size="57" source="File: D:\Final_NYC_Motor Vehicle Collisions\OneDrive_2023-04-11\Data - NYC Motor Vehicle Collisions\Motor_Vehicle_Collisions_-_Person.tsv" type="V_String" />
+                <Field name="PED_ACTION" size="47" source="File: D:\Final_NYC_Motor Vehicle Collisions\OneDrive_2023-04-11\Data - NYC Motor Vehicle Collisions\Motor_Vehicle_Collisions_-_Person.tsv" type="V_String" />
+                <Field name="COMPLAINT" size="34" source="File: D:\Final_NYC_Motor Vehicle Collisions\OneDrive_2023-04-11\Data - NYC Motor Vehicle Collisions\Motor_Vehicle_Collisions_-_Person.tsv" type="V_String" />
+                <Field name="PED_ROLE" size="15" source="File: D:\Final_NYC_Motor Vehicle Collisions\OneDrive_2023-04-11\Data - NYC Motor Vehicle Collisions\Motor_Vehicle_Collisions_-_Person.tsv" type="V_String" />
+                <Field name="CONTRIBUTING_FACTOR_1" size="53" source="File: D:\Final_NYC_Motor Vehicle Collisions\OneDrive_2023-04-11\Data - NYC Motor Vehicle Collisions\Motor_Vehicle_Collisions_-_Person.tsv" type="V_String" />
+                <Field name="CONTRIBUTING_FACTOR_2" size="53" source="File: D:\Final_NYC_Motor Vehicle Collisions\OneDrive_2023-04-11\Data - NYC Motor Vehicle Collisions\Motor_Vehicle_Collisions_-_Person.tsv" type="V_String" />
+                <Field name="PERSON_SEX" size="1" source="File: D:\Final_NYC_Motor Vehicle Collisions\OneDrive_2023-04-11\Data - NYC Motor Vehicle Collisions\Motor_Vehicle_Collisions_-_Person.tsv" type="String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAutoField" />
+        </Node>
+        <Node ToolID="39">
+          <GuiSettings>
+            <Position x="462" y="750" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Value name="Select Fields">UNIQUE_ID=True,COLLISION_ID=True,CRASH_DATE=True,CRASH_TIME=True,PERSON_ID=True,PERSON_TYPE=True,PERSON_INJURY=True,VEHICLE_ID=True,PERSON_AGE=True,EJECTION=True,EMOTIONAL_STATUS=True,BODILY_INJURY=True,POSITION_IN_VEHICLE=True,SAFETY_EQUIPMENT=True,PED_LOCATION=True,PED_ACTION=True,COMPLAINT=True,PED_ROLE=True,CONTRIBUTING_FACTOR_1=True,CONTRIBUTING_FACTOR_2=True,PERSON_SEX=True</Value>
+              <Value name="Sample Data">False</Value>
+              <Value name="Number">True</Value>
+              <Value name="NNumber">5000</Value>
+              <Value name="Percent">False</Value>
+              <Value name="NPercent">10</Value>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <Dependencies>
+              <Implicit />
+            </Dependencies>
+          </Properties>
+          <EngineSettings Macro="Predictive Tools\Field_Summary_Report.yxmc" />
+        </Node>
+        <Node ToolID="40">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="222" y="665" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="41">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="642" y="702" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Layout>
+                <View1>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+              </Layout>
+              <TempFile>C:\Users\nisha\AppData\Local\Temp\Engine_38980_37ca70730ce5394fa4d0ddb53a870ecc_\Engine_38980_eefbebc313e3904896236dd49c60f603~.yxdb</TempFile>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="42">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="582" y="750" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Layout>
+                <View1>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+              </Layout>
+              <TempFile>C:\Users\nisha\AppData\Local\Temp\Engine_38980_37ca70730ce5394fa4d0ddb53a870ecc_\Engine_38980_42067a4fe17645499d41089061ee2884~.yxdb</TempFile>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="43">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="546" y="810" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Users\nisha\AppData\Local\Temp\Engine_38980_37ca70730ce5394fa4d0ddb53a870ecc_\Engine_38980_90c9f8831a19dc469df911c0148cf1bc~.yxdb</TempFile>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="44">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="269" y="738" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Users\nisha\AppData\Local\Temp\Engine_38980_37ca70730ce5394fa4d0ddb53a870ecc_\Engine_38980_8f3e9d1392d4ec4abd521ee29cb09e3f~.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Profile</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="55">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DateTime.DateTime">
+            <Position x="414" y="882" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <IsFrom value="False" />
+              <InputFieldName>CRASH_DATE</InputFieldName>
+              <Language>English</Language>
+              <Format>MM/dd/yyyy</Format>
+              <OutputFieldName>DateTime_Out</OutputFieldName>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Convert CRASH_DATE From:
+MM/dd/yyyy</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDateTime" />
+        </Node>
+        <Node ToolID="56">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DateTime.DateTime">
+            <Position x="282" y="881" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <IsFrom value="False" />
+              <InputFieldName>CRASH_DATE</InputFieldName>
+              <Language>English</Language>
+              <Format />
+              <OutputFieldName>NEW_CRASH_TIME</OutputFieldName>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Convert CRASH_DATE From:
+Custom</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDateTime" />
+        </Node>
+        <Node ToolID="46">
+          <GuiSettings>
+            <Position x="522" y="906" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Value name="Check Box (135)">False</Value>
+              <Value name="Check Box (136)">False</Value>
+              <Value name="List Box (11)">"UNIQUE_ID","COLLISION_ID","CRASH_DATE","CRASH_TIME","PERSON_ID","PERSON_TYPE","PERSON_INJURY","VEHICLE_ID","PERSON_AGE","EJECTION","EMOTIONAL_STATUS","BODILY_INJURY","POSITION_IN_VEHICLE","SAFETY_EQUIPMENT","PED_LOCATION","PED_ACTION","COMPLAINT","PED_ROLE","CONTRIBUTING_FACTOR_1","CONTRIBUTING_FACTOR_2","PERSON_SEX","NEW_CRASH_TIME","DateTime_Out"</Value>
+              <Value name="Check Box (84)">False</Value>
+              <Value name="Check Box (117)">False</Value>
+              <Value name="Check Box (15)">True</Value>
+              <Value name="Check Box (109)">False</Value>
+              <Value name="Check Box (122)">False</Value>
+              <Value name="Check Box (53)">False</Value>
+              <Value name="Check Box (58)">False</Value>
+              <Value name="Check Box (70)">False</Value>
+              <Value name="Check Box (77)">True</Value>
+              <Value name="Drop Down (81)">upper</Value>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <Dependencies>
+              <Implicit />
+            </Dependencies>
+          </Properties>
+          <EngineSettings Macro="Cleanse.yxmc" />
+        </Node>
+        <Node ToolID="47">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="894" y="918" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile />
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Profile</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+      </ChildNodes>
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="22" Connection="Targets" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Output" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Output" />
+      <Destination ToolID="25" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="13" Connection="Output" />
+      <Destination ToolID="27" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="14" Connection="Output26" />
+      <Destination ToolID="13" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="22" Connection="Output" />
+      <Destination ToolID="8" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="24" Connection="Output" />
+      <Destination ToolID="28" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="25" Connection="Output" />
+      <Destination ToolID="20" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="25" Connection="Output" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="25" Connection="Output" />
+      <Destination ToolID="30" Connection="Field Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="25" Connection="Output" />
+      <Destination ToolID="37" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="26" Connection="Output" />
+      <Destination ToolID="15" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="27" Connection="Output" />
+      <Destination ToolID="24" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="28" Connection="Output" />
+      <Destination ToolID="29" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="29" Connection="Output" />
+      <Destination ToolID="26" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="30" Connection="Reports" />
+      <Destination ToolID="31" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="30" Connection="Output" />
+      <Destination ToolID="32" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="30" Connection="Interactive" />
+      <Destination ToolID="35" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="36" Connection="Output" />
+      <Destination ToolID="14" Connection="Input2" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="37" Connection="Output" />
+      <Destination ToolID="36" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="11" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="Output" />
+      <Destination ToolID="10" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="11" Connection="Output" />
+      <Destination ToolID="40" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="11" Connection="Output" />
+      <Destination ToolID="44" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="39" Connection="Output" />
+      <Destination ToolID="41" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="39" Connection="Reports" />
+      <Destination ToolID="42" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="39" Connection="Interactive" />
+      <Destination ToolID="43" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="40" Connection="Output" />
+      <Destination ToolID="9" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="40" Connection="Output" />
+      <Destination ToolID="39" Connection="Field Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="40" Connection="Output" />
+      <Destination ToolID="56" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="55" Connection="Output" />
+      <Destination ToolID="46" Connection="Input2" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="56" Connection="Output" />
+      <Destination ToolID="55" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="46" Connection="Output26" />
+      <Destination ToolID="47" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>NYC_MV_Collisions_Profiling</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="e52240f5-02e0-4ba6-bd0a-eba6d0d29831" />
+      <Telemetry>
+        <PreviousWorkflowId value="a677a666-583e-4c62-a117-6857e94961f1" />
+        <OriginWorkflowId value="a677a666-583e-4c62-a117-6857e94961f1" />
+      </Telemetry>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
